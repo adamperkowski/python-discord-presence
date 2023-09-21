@@ -17,11 +17,11 @@ while True:
     #RPC.update(state=choice(descs), details=f"LoL-sober for {dayz} days :)")
 
     RPC.update(
-        large_image=choice(["happy0", "happy1"]),
+        large_image=choice(["happy0", "happy1", "happy2", "happy3"]),
         large_text="REMEMBER KIDS, LOL IS BAD!",
         details=f"LoL-sober for {dayz} days :)",
         state=choice(descs),
-        buttons=[{"label":"my links btw","url":"https://linktr.ee/adas_per"}]
+        buttons=[{"label":"my links btw","url":"https://linktr.ee/adas_per"}, {"label":"this presence's code","url":"https://github.com/afdkapsx/python-discord-presence"}]
     )
 
     sleep(15)
